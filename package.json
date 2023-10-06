@@ -4,7 +4,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "YourScriptName": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
+  
   "dependencies": {
     "acorn": "^8.10.0",
     "acorn-import-assertions": "^1.9.0",
